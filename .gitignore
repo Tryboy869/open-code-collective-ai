@@ -1,0 +1,279 @@
+# ========================================
+# Open-Code Collective AI - .gitignore
+# ========================================
+
+# ========================================
+# SECRETS & CREDENTIALS (CRITIQUE!)
+# ========================================
+
+# Variables d'environnement
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Fichiers de configuration avec secrets
+config.local.js
+config.local.json
+secrets.json
+
+# Tokens
+*.token
+.turso/
+.credentials
+
+# ========================================
+# NODE.JS
+# ========================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Package locks (optionnel - décommentez si vous voulez les ignorer)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+.cache/
+
+# ========================================
+# DATABASES
+# ========================================
+
+# SQLite / LibSQL
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Database dumps
+*.sql.gz
+*.dump
+
+# ========================================
+# LOGS
+# ========================================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS logs
+*.log.*
+combined.log
+error.log
+access.log
+
+# ========================================
+# OPERATING SYSTEM FILES
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================================
+# IDEs & EDITORS
+# ========================================
+
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ========================================
+# TESTING
+# ========================================
+
+# Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Test outputs
+test-results/
+junit.xml
+
+# ========================================
+# TEMPORARY FILES
+# ========================================
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~.nib
+
+# Cache
+.cache/
+*.cache
+
+# ========================================
+# PROJECT SPECIFIC
+# ========================================
+
+# Repos clonés temporairement
+repos_temp/
+cloned_repos/
+
+# Datasets temporaires (avant upload R2)
+datasets_temp/
+*.jsonl.temp
+*.gz.temp
+
+# Backups
+backups/
+*.backup
+
+# Uploads
+uploads/
+
+# ========================================
+# DEPLOYMENT
+# ========================================
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify
+
+# Railway
+.railway
+
+# ========================================
+# DOCUMENTATION
+# ========================================
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# API docs auto-générées
+api-docs/
+
+# ========================================
+# MISC
+# ========================================
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Images temporaires
+*.psd
+*.ai
+
+# Certificats (ne JAMAIS commit!)
+*.pem
+*.key
+*.cert
+*.crt
+
+# ========================================
+# KEEP THESE FILES (Exceptions)
+# ========================================
+
+# Gardez .env.example (template)
+!.env.example
+
+# Gardez les README dans sous-dossiers
+!**/README.md
+
+# ========================================
+# NOTES IMPORTANTES
+# ========================================
+
+# ⚠️ SI VOUS AVEZ COMMITÉ UN SECRET PAR ERREUR :
+# 1. NE PAS juste supprimer le fichier et commit
+# 2. Le secret reste dans l'historique Git !
+# 3. Actions à faire :
+#    - Révoquer le secret immédiatement
+#    - Utiliser git filter-branch ou BFG Repo-Cleaner
+#    - Forcer push (si repo pas encore public)
+#    - Régénérer tous les secrets
+
+# 📚 RESSOURCES :
+# - GitHub Secret Scanning : https://docs.github.com/en/code-security/secret-scanning
+# - BFG Repo-Cleaner : https://rtyley.github.io/bfg-repo-cleaner/
+# - git-filter-repo : https://github.com/newren/git-filter-repo
