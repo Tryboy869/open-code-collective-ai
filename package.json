@@ -1,0 +1,89 @@
+{
+  "name": "open-code-collective-ai",
+  "version": "1.0.0",
+  "description": "Le plus grand dataset open-source de code jamais créé, alimenté par la communauté",
+  "type": "module",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "node --watch api.js",
+    "test": "echo \"Tests coming soon\" && exit 0",
+    "lint": "eslint *.js",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "check": "npm run lint && npm run format"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anzizedaouda/open-code-collective-ai.git"
+  },
+  "keywords": [
+    "ai",
+    "artificial-intelligence",
+    "code-generation",
+    "dataset",
+    "collaborative",
+    "open-source",
+    "github",
+    "machine-learning",
+    "developers",
+    "community",
+    "code-embeddings",
+    "semantic-search",
+    "gpt",
+    "llm",
+    "openai",
+    "anthropic",
+    "groq"
+  ],
+  "author": {
+    "name": "Anzize Daouda",
+    "email": "contact@opencode-collective.ai",
+    "url": "https://github.com/anzizedaouda"
+  },
+  "contributors": [
+    {
+      "name": "Anzize Daouda",
+      "email": "contact@opencode-collective.ai"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anzizedaouda/open-code-collective-ai/issues",
+    "email": "bugs@opencode-collective.ai"
+  },
+  "homepage": "https://github.com/anzizedaouda/open-code-collective-ai#readme",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/anzizedaouda"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.5.6",
+    "@octokit/rest": "^20.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4"
+  },
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
