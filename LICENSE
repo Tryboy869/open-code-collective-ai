@@ -1,0 +1,58 @@
+MIT License
+
+Copyright (c) 2025 Anzize Daouda
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Additional Terms for Open-Code Collective AI
+
+While this software is licensed under MIT, please note:
+
+### ✅ You MAY:
+- Use the code for educational purposes
+- Study the implementation
+- Submit improvements via Pull Requests
+- Report bugs and suggest features
+- Fork for personal learning
+
+### ⚠️ You MAY NOT:
+- Deploy competing instances of the platform
+- Extract the dataset for commercial purposes
+- Remove attribution or copyright notices
+- Use the brand name "Open-Code Collective AI" for derivative works
+
+### 📝 Why?
+
+Open-Code Collective AI is a **centralized platform** by design. Its value comes from having a **single, large, collaborative dataset**. Multiple competing instances would fragment the community and reduce quality for everyone.
+
+**The spirit of this project is:**
+- ✅ Contribute code to the shared dataset
+- ✅ Use the platform to generate code
+- ✅ Improve the platform together
+
+**Not:**
+- ❌ Create competing platforms that divide the community
+
+### 🤝 Questions?
+
+If you want to use this code in a way not covered above, please reach out: contact@opencode-collective.ai
+
+We're happy to discuss partnerships, integrations, or special use cases.
